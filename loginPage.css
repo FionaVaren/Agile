@@ -96,7 +96,7 @@
     position: absolute;
     width: 131px;
     height: 34px;
-    left: 370px;
+    left: 390px;
     top: 35px;
     
     font-family: 'Simonetta';
@@ -107,34 +107,24 @@
     
     color: #000000;
 }
-
-.kanan .rectangle{
-    position: absolute;
-    width: 182px;
-    height: 39px;
-    left: 465px;
-    top: 44px;
-    
+.kanan #createAccount{
     background: #FFFFFF;
     border: 1px solid #FFF0F0;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-}
-
-.kanan #createAccount{
     position: absolute;
-    width: 226px;
+    width: 175px;
     height: 27px;
-    left: 479px;
-    top: 32px;
+    left: 490px;
+    top: 33px;
     
     font-family: 'Quantico';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    
+    text-align: center;
     color: #000000;
 }
 
@@ -223,7 +213,7 @@ form{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
-.login{
+.login input{
     background-color: #2FBE79;
     width: 350px;
     height: 36px;
@@ -231,16 +221,11 @@ form{
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-}
-.login p{
     font-family: 'Yinmar', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 0%;
-    margin-left: 11vw;
-    
-    color: #FFFFFF;
+    color: #FFF0F0;
 }
 
 @media (min-width:1440px) and (max-width:1743px){
@@ -320,30 +305,855 @@ form{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
     }
-    .login p{
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 8.5vw;
-        
-        color: #FFFFFF;
-    }
+    
 }
 
 @media (min-width:320px) and (max-width:523px){
+    .kiri{
+        position: absolute;
+        width: 125px;
+        height: 523px;
+        left: 0px;
+        top: 0px;
+        
+        background:#F7F3E9;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 195px;
+        height: 523px;
+        left: 125px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 200px;
+        height: 39.47px;
+        left: 30px;
+        top: 150px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 10px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 90px;
+        height: 58px;
+        left: 30px;
+        top: 180px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 15px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 30px;
+        top: 250px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        left: 20px;
+        top: 290px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 32vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 100px;
+        top: 39vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 7px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 55px;
+        height: 25px;
+        left: 135px;
+        top: 40vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
     .kanan h6{
         position: absolute;
         width: 197px;
         height: 66px;
-        left: 230px;
-        top: 30px;
+        left: 80px;
+        top: 50vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 70vw;
+        margin-left: 12vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 9px;
+        line-height: 20px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 130px;
+        height: 20px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin-bottom: 2vw;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent a{
+        text-decoration: none;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 7px;
+        line-height: 0.5vw;
+        color: #000000;
+        padding-left: 8vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 3px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;  
+        color: #000000;
+    }
+    .formContent1 #rememberMe{
+        width: 12px;
+        height: 12px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 130px;
+        height: 20px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #FFF0F0;
+    }
+}
+
+@media (min-width:768px) and (max-width:1046px){
+    .kiri{
+        position: absolute;
+        width: 300px;
+        height: 1046px;
+        left: 0px;
+        top: 0px;
+        
+        background:#FFFFFF;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 468px;
+        height: 1046px;
+        left: 39vw;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 200px;
+        height: 39.47px;
+        left: 40px;
+        top: 350px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 25px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 250px;
+        height: 58px;
+        left: 30px;
+        top: 390px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 35px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        left: 30px;
+        top: 490px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 20px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 250px;
+        height: 130px;
+        left: 13px;
+        top: 590px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 25vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 28.5vw;
+        top: 27vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 150px;
+        height: 25px;
+        left: 40vw;
+        top: 27vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 210px;
+        top: 30vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
         font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 55vw;
+        margin-left: 10vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent a{
+        text-decoration: none;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 3vw;
+        color: #000000;
+        padding-left: 10vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 32px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FFF0F0;
+    }
+    
+}
+@media (min-width:1024px) and (max-width:1089px){
+    .kiri{
+        position: absolute;
+        width: 450px;
+        height: 1089px;
+        left: 0px;
+        top: 0px;
+        
+        background:#FFFFFF;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 574px;
+        height: 1089px;
+        left: 43.5vw;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 300px;
+        height: 39.47px;
+        left: 90px;
+        top: 350px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 35px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 350px;
+        height: 58px;
+        left: 90px;
+        top: 410px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 350px;
+        height: 20px;
+        left: 90px;
+        top: 520px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 55px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 73px;
+        top: 650px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 25vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 28.5vw;
+        top: 27vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 150px;
+        height: 25px;
+        left: 40vw;
+        top: 28vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 210px;
+        top: 33vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50vw;
+        margin-left: 10vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent a{
+        text-decoration: none;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 3vw;
+        color: #000000;
+        padding-left: 10vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 32px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FFF0F0;
+    }
+}
+
+@media (min-width:425px) and (max-width:523px){
+    .kiri{
+        position: absolute;
+        width: 160px;
+        height: 523px;
+        left: 0px;
+        top: 0px;
+        
+        background:#F7F3E9;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 265px;
+        height: 523px;
+        left: 160px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 200px;
+        height: 39.47px;
+        left: 30px;
+        top: 150px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 90px;
+        height: 58px;
+        left: 30px;
+        top: 180px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 30px;
+        top: 250px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 150px;
+        height: 75px;
+        left: 6px;
+        top: 290px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 25vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 134px;
+        top: 31vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 75px;
+        height: 25px;
+        left: 185px;
+        top: 31vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 90px;
+        top: 35vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
         line-height: 51px;
         
         color: #F7F3E9;
@@ -356,219 +1166,6 @@ form{
         justify-content: center;
         flex-direction: column;
         margin-top: 60vw;
-        margin-left: 40vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 350px;
-        height: 32px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
-        color: #000000;
-        padding-left: 26vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login{
-        background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login p{
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 43vw;
-        
-        color: #FFFFFF;
-    }
-}
-
-@media (min-width:768px) and (max-width:1046px){
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 230px;
-        top: 30px;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 25vw;
-        margin-left: 20vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 350px;
-        height: 32px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
-        color: #000000;
-        padding-left: 11vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login{
-        background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login p{
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 20vw;
-        
-        color: #FFFFFF;
-    }
-}
-@media (min-width:1024px) and (max-width:1089px){
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 230px;
-        top: 30px;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 20vw;
         margin-left: 15vw;
     }
     
@@ -576,34 +1173,38 @@ form{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
+        font-size: 18px;
+        line-height: 20px;
         
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 350px;
-        height: 32px;
+        width: 170px;
+        height: 20px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
+        margin-bottom: 2vw;
     }
     .formContent #labelPassword{
         display: flex;
         flex-direction: row;
-        margin-bottom: -0.5vw;
+        margin-bottom: 1vw;
+    }
+    .formContent a{
+        text-decoration: none;
     }
     .formContent p{
         font-family: 'Ruluko';
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
+        font-size: 7px;
+        line-height: 3vw;
         color: #000000;
-        padding-left: 9vw;
+        padding-left: 6vw;
     }
     
     .formContent1{
@@ -612,165 +1213,181 @@ form{
         align-items: center;
     }
     .formContent1 p{
-        padding-left: 5px;
+        padding-left: 3px;
         font-family: 'Yaldevi Colombo Medium', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
+        font-size: 10px;
+        line-height: 10px;  
         color: #000000;
-    
     }
     .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
+        width: 12px;
+        height: 12px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
     }
-    .login{
+    .login input{
         background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
+        width: 170px;
+        height: 20px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
-    }
-    .login p{
         font-family: 'Yinmar', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 13vw;
-        
-        color: #FFFFFF;
-    }
-}
-
-@media (min-width:425px) and (max-width:523px){
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 230px;
-        top: 30px;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 40vw;
-        margin-left: 30vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 350px;
-        height: 32px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
-        color: #000000;
-        padding-left: 20vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login{
-        background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login p{
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 35vw;
-        
-        color: #FFFFFF;
+        font-size: 12px;
+        color: #FFF0F0;
     }
 }
 
 @media (min-width:2560px) and (max-width:3486px){
-    .kanan h6{
+    .kiri{
         position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 230px;
-        top: 30px;
+        width: 1100px;
+        height: 3486px;
+        left: 0px;
+        top: 0px;
+        
+        background:#FFFFFF;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 1460px;
+        height: 3486px;
+        left: 43vw;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 600px;
+        height: 39.47px;
+        left: 250px;
+        top: 1050px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 70px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 800px;
+        height: 58px;
+        left: 250px;
+        top: 1200px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 80px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 800px;
+        height: 20px;
+        left: 250px;
+        top: 1400px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 80px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 950px;
+        height: 530px;
+        left: 55px;
+        top: 1700px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 26vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 82px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 531px;
+        height: 34px;
+        left: 24vw;
+        top: 27vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 460px;
+        height: 40px;
+        left: 38vw;
+        top: 27vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 50px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 397px;
+        height: 66px;
+        left: 510px;
+        top: 35vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 110px;
         line-height: 51px;
         
         color: #F7F3E9;
@@ -782,42 +1399,47 @@ form{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 8vw;
-        margin-left: 5vw;
+        margin-top: 55vw;
+        margin-bottom: 2vw;
+        margin-left: 13vw;
     }
     
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
-        
+        font-size: 100px;
+        line-height: 114px;
+        margin-bottom: 2vw;
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 350px;
-        height: 32px;
+        width: 1050px;
+        height: 92px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
+        margin-bottom: 2vw;
     }
     .formContent #labelPassword{
         display: flex;
         flex-direction: row;
         margin-bottom: -0.5vw;
     }
+    .formContent a{
+        text-decoration: none;
+    }
     .formContent p{
         font-family: 'Ruluko';
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
+        font-size: 50px;
+        line-height: 3vw;
         color: #000000;
-        padding-left: 3vw;
+        padding-left: 7vw;
     }
     
     .formContent1{
@@ -826,42 +1448,271 @@ form{
         align-items: center;
     }
     .formContent1 p{
-        padding-left: 5px;
+        padding-left: 7px;
         font-family: 'Yaldevi Colombo Medium', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 80px;
         line-height: 20px;
         
         color: #000000;
     
     }
     .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
+        width: 56px;
+        height: 56px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
     }
-    .login{
+    .login input{
         background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
+        width: 1050px;
+        height: 92px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
-    }
-    .login p{
         font-family: 'Yinmar', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 0%;
-        margin-left: 6vw;
+        font-size: 80px;
+        color: #FFF0F0;
+    }
+}
+
+@media (min-width:375px) and (max-width:523px){
+    .kiri{
+        position: absolute;
+        width: 140px;
+        height: 523px;
+        left: 0px;
+        top: 0px;
         
-        color: #FFFFFF;
+        background:#F7F3E9;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 235px;
+        height: 523px;
+        left: 140px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 200px;
+        height: 39.47px;
+        left: 30px;
+        top: 150px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 90px;
+        height: 58px;
+        left: 30px;
+        top: 180px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 30px;
+        top: 250px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 130px;
+        height: 65px;
+        left: 6px;
+        top: 290px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 25vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 105px;
+        top: 31vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 75px;
+        height: 25px;
+        left: 155px;
+        top: 31vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 80px;
+        top: 33vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60vw;
+        margin-left: 10vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 170px;
+        height: 20px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin-bottom: 2vw;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1vw;
+    }
+    .formContent a{
+        text-decoration: none;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 7px;
+        line-height: 3vw;
+        color: #000000;
+        padding-left: 6vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 3px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;  
+        color: #000000;
+    }
+    .formContent1 #rememberMe{
+        width: 12px;
+        height: 12px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 170px;
+        height: 20px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #FFF0F0;
     }
 }
