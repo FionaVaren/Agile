@@ -1,0 +1,244 @@
+.kiri{
+    position: absolute;
+    width: 600px;
+    height: 590px;
+    left: 0px;
+    top: 0px;
+    
+    background:#FFFFFF;
+    border-radius: 0px;
+}
+
+.kanan{
+    position: absolute;
+    width: 675px;
+    height: 590px;
+    left: 600px;
+    top: 0px;
+    
+    background: #A3D2CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+.kiri h2{
+    position: absolute;
+    width: 376.41px;
+    height: 39.47px;
+    left: 100px;
+    top: 30px;
+    
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 1500;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #F05945;
+    
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.kiri #paragraph{
+    position: absolute;
+    width: 362px;
+    height: 58px;
+    left: 100px;
+    top: 110px;
+    
+    font-family: 'Passero One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+.kiri #getYourself{
+    position: absolute;
+    width: 362px;
+    height: 58px;
+    left: 100px;
+    top: 190px;
+    font-family: 'Passero One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+.kiri img{
+    position: absolute;
+    width: 430px;
+    height: 230px;
+    left: 80px;
+    top: 300px;
+    border-radius: 50px;
+}
+
+.kanan #logo{
+    position: absolute;
+    width: 81px;
+    height: 34px;
+    left: 50px;
+    top: 15px;
+    
+    font-family: 'Simonetta';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #000000;
+}
+
+.kanan #newHere{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 370px;
+    top: 35px;
+    
+    font-family: 'Simonetta';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;
+}
+
+.kanan .rectangle{
+    position: absolute;
+    width: 182px;
+    height: 39px;
+    left: 465px;
+    top: 44px;
+    
+    background: #FFFFFF;
+    border: 1px solid #FFF0F0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.kanan #createAccount{
+    position: absolute;
+    width: 226px;
+    height: 27px;
+    left: 479px;
+    top: 32px;
+    
+    font-family: 'Quantico';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #000000;
+}
+
+.kanan h6{
+    position: absolute;
+    width: 197px;
+    height: 66px;
+    left: 280px;
+    top: 80px;
+    
+    font-family: 'Quantico';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    
+    color: #F7F3E9;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 17.5vw;
+    margin-left: 13vw;
+}
+
+.formContent label{
+    font-family: 'Sirin Stencil';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    
+    color: #F7F3E9;
+}
+
+.formContent input{
+    width: 350px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.formContent #labelPassword{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -0.5vw;
+}
+.formContent p{
+    font-family: 'Ruluko';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    padding-left: 6vw;
+}
+
+.formContent1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formContent1 p{
+    padding-left: 5px;
+    font-family: 'Yaldevi Colombo Medium', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #000000;
+
+}
+.formContent1 #rememberMe{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.login{
+    background-color: #2FBE79;
+    width: 350px;
+    height: 36px;
+    border: 1px solid #04FD86;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.login p{
+    font-family: 'Yinmar', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0%;
+    margin-left: 11vw;
+    
+    color: #FFFFFF;
+}
