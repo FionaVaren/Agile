@@ -242,3 +242,626 @@ form{
     
     color: #FFFFFF;
 }
+
+@media (min-width:1440px) and (max-width:1743px){
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15vw;
+        margin-left: 11vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 5vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 8.5vw;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width:320px) and (max-width:523px){
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 230px;
+        top: 30px;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60vw;
+        margin-left: 40vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 26vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 43vw;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width:768px) and (max-width:1046px){
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 230px;
+        top: 30px;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25vw;
+        margin-left: 20vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 11vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 20vw;
+        
+        color: #FFFFFF;
+    }
+}
+@media (min-width:1024px) and (max-width:1089px){
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 230px;
+        top: 30px;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20vw;
+        margin-left: 15vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 9vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 13vw;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width:425px) and (max-width:523px){
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 230px;
+        top: 30px;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40vw;
+        margin-left: 30vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 20vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 35vw;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width:2560px) and (max-width:3486px){
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 230px;
+        top: 30px;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 8vw;
+        margin-left: 5vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 350px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -0.5vw;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 3vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+    
+    }
+    .formContent1 #rememberMe{
+        width: 16px;
+        height: 16px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login{
+        background-color: #2FBE79;
+        width: 350px;
+        height: 36px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login p{
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0%;
+        margin-left: 6vw;
+        
+        color: #FFFFFF;
+    }
+}
