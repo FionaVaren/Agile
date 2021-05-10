@@ -107,6 +107,7 @@
     
     color: #000000;
 }
+
 .kanan #createAccount{
     background: #FFFFFF;
     border: 1px solid #FFF0F0;
@@ -178,6 +179,9 @@ form{
     flex-direction: row;
     margin-bottom: -0.5vw;
 }
+.formContent a{
+    text-decoration: none;
+}
 .formContent p{
     font-family: 'Ruluko';
     font-style: normal;
@@ -228,12 +232,160 @@ form{
     color: #FFF0F0;
 }
 
-@media (min-width:1440px) and (max-width:1743px){
+/* @media (max-width:1440px){
+    .kiri{
+        position: absolute;
+        width: 45vw;
+        height: 121vw;
+        left: 0px;
+        top: 0px;
+        
+        background:#F7F3E9;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 55vw;
+        height: 121vw;
+        left: 45vw;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 100vw;
+        height: 39.47px;
+        left: 7vw;
+        top: 35vw;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 60px;
+        line-height: 59px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 30vw;
+        height: 150vw;
+        left: 7vw;
+        top: 45vw;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 5vw;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 30vw;
+        height: 50vw;
+        left: 7vw;
+        top: 65vw;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 29px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 30vw;
+        height: 15vw;
+        left: 6vw;
+        top: 75vw;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 50px;
+        top: 30vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 145px;
+        height: 34px;
+        left: 28vw;
+        top: 32vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 15vw;
+        height: 27px;
+        left: 38vw;
+        top: 33vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 20vw;
+        top: 35vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
     form{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 15vw;
+        margin-top: 50vw;
         margin-left: 11vw;
     }
     
@@ -241,15 +393,17 @@ form{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 44px;
+        font-size: 45px;
+        line-height: 50px;
         
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 350px;
-        height: 32px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        width: 500px;
+        height: 40px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -259,13 +413,13 @@ form{
     .formContent #labelPassword{
         display: flex;
         flex-direction: row;
-        margin-bottom: -0.5vw;
+        margin-bottom: -2vw;
     }
     .formContent p{
         font-family: 'Ruluko';
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 25px;
         line-height: 21px;
         color: #000000;
         padding-left: 5vw;
@@ -281,50 +435,55 @@ form{
         font-family: 'Yaldevi Colombo Medium', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 35px;
         line-height: 20px;
         
         color: #000000;
     
     }
     .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
+        width: 25px;
+        height: 25px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
     }
-    .login{
+    .login input{
         background-color: #2FBE79;
-        width: 350px;
-        height: 36px;
+        width: 500px;
+        height: 40px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        color: #FFF0F0;
     }
     
-}
+} */
 
-@media (min-width:320px) and (max-width:523px){
+@media (min-width:320px) and (max-width:374px) { 
     .kiri{
         position: absolute;
-        width: 125px;
-        height: 523px;
+        width: 45vw;
+        height: 190vw;
         left: 0px;
         top: 0px;
         
-        background:#F7F3E9;
+        background:#FFFFFF;
         border-radius: 0px;
     }
     
     .kanan{
         position: absolute;
-        width: 195px;
-        height: 523px;
-        left: 125px;
+        width: 54.5vw;
+        height: 190vw;
+        left: 45vw;
         top: 0px;
         
         background: #A3D2CA;
@@ -336,13 +495,13 @@ form{
         position: absolute;
         width: 200px;
         height: 39.47px;
-        left: 30px;
-        top: 150px;
+        left: 7vw;
+        top: 50vw;
         
         font-family: 'Patua One';
         font-style: normal;
         font-weight: 1500;
-        font-size: 10px;
+        font-size: 15px;
         line-height: 15px;
         
         color: #F05945;
@@ -351,39 +510,39 @@ form{
     }
     .kiri #paragraph{
         position: absolute;
-        width: 90px;
+        width: 40vw;
         height: 58px;
-        left: 30px;
-        top: 180px;
+        left: 7vw;
+        top: 60vw;
         
         font-family: 'Passero One';
         font-style: normal;
         font-weight: bold;
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 6vw;
         
         color: #000000;
     }
     .kiri #getYourself{
         position: absolute;
-        width: 100px;
+        width: 50vw;
         height: 20px;
-        left: 30px;
-        top: 250px;
+        left: 7vw;
+        top: 83vw;
         font-family: 'Passero One';
         font-style: normal;
         font-weight: bold;
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 6vw;
         
         color: #000000;
     }
     .kiri img{
         position: absolute;
-        width: 100px;
-        height: 50px;
-        left: 20px;
-        top: 290px;
+        width: 120px;
+        height: 55px;
+        left: 4vw;
+        top: 100vw;
         border-radius: 50px;
     }
     
@@ -407,7 +566,7 @@ form{
         position: absolute;
         width: 131px;
         height: 34px;
-        left: 100px;
+        left: 80px;
         top: 39vw;
         
         font-family: 'Simonetta';
@@ -426,15 +585,15 @@ form{
         border-radius: 50px;
         position: absolute;
         width: 55px;
-        height: 25px;
-        left: 135px;
+        height: 18px;
+        left: 115px;
         top: 40vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
         font-size: 5px;
-        line-height: 26px;
+        line-height: 20px;
         text-align: center;
         color: #000000;
     }
@@ -462,7 +621,7 @@ form{
         justify-content: center;
         flex-direction: column;
         margin-top: 70vw;
-        margin-left: 12vw;
+        margin-left: 9vw;
     }
     
     .formContent label{
@@ -540,9 +699,9 @@ form{
         font-size: 12px;
         color: #FFF0F0;
     }
-}
+} 
 
-@media (min-width:768px) and (max-width:1046px){
+@media (min-width:768px) and (max-width:1023px){
     .kiri{
         position: absolute;
         width: 300px;
@@ -641,7 +800,7 @@ form{
         position: absolute;
         width: 131px;
         height: 34px;
-        left: 28.5vw;
+        left: 19vw;
         top: 27vw;
         
         font-family: 'Simonetta';
@@ -661,7 +820,7 @@ form{
         position: absolute;
         width: 150px;
         height: 25px;
-        left: 40vw;
+        left: 30vw;
         top: 27vw;
         
         font-family: 'Quantico';
@@ -677,13 +836,13 @@ form{
         position: absolute;
         width: 197px;
         height: 66px;
-        left: 210px;
+        left: 190px;
         top: 30vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 51px;
         
         color: #F7F3E9;
@@ -696,21 +855,21 @@ form{
         justify-content: center;
         flex-direction: column;
         margin-top: 55vw;
-        margin-left: 10vw;
+        margin-left: 8vw;
     }
     
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 44px;
         
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 350px;
+        width: 300px;
         height: 32px;
         background: #FFFFFF;
         border: 1px solid #000000;
@@ -733,7 +892,7 @@ form{
         font-size: 15px;
         line-height: 3vw;
         color: #000000;
-        padding-left: 10vw;
+        padding-left: 7vw;
     }
     
     .formContent1{
@@ -763,7 +922,7 @@ form{
     }
     .login input{
         background-color: #2FBE79;
-        width: 350px;
+        width: 300px;
         height: 32px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
@@ -776,8 +935,9 @@ form{
         color: #FFF0F0;
     }
     
-}
-@media (min-width:1024px) and (max-width:1089px){
+} 
+
+/* @media (min-width:1024px) and (max-width:1089px){
     .kiri{
         position: absolute;
         width: 450px;
@@ -1010,9 +1170,9 @@ form{
         font-size: 18px;
         color: #FFF0F0;
     }
-}
+} */
 
-@media (min-width:425px) and (max-width:523px){
+@media (min-width:425px) and (max-width:767px){
     .kiri{
         position: absolute;
         width: 160px;
@@ -1244,7 +1404,7 @@ form{
         font-size: 12px;
         color: #FFF0F0;
     }
-}
+} 
 
 @media (min-width:2560px) and (max-width:3486px){
     .kiri{
@@ -1345,13 +1505,13 @@ form{
         position: absolute;
         width: 531px;
         height: 34px;
-        left: 24vw;
-        top: 27vw;
+        left: 22vw;
+        top: 28vw;
         
         font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
-        font-size: 72px;
+        font-size: 50px;
         line-height: 25px;
         
         color: #000000;
@@ -1363,15 +1523,15 @@ form{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         position: absolute;
-        width: 460px;
+        width: 350px;
         height: 40px;
-        left: 38vw;
-        top: 27vw;
+        left: 32vw;
+        top: 28vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 50px;
+        font-size: 30px;
         line-height: 26px;
         text-align: center;
         color: #000000;
@@ -1401,21 +1561,21 @@ form{
         flex-direction: column;
         margin-top: 55vw;
         margin-bottom: 2vw;
-        margin-left: 13vw;
+        margin-left: 6vw;
     }
     
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 100px;
+        font-size: 80px;
         line-height: 114px;
         margin-bottom: 2vw;
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 1050px;
+        width: 900px;
         height: 92px;
         background: #FFFFFF;
         border: 1px solid #000000;
@@ -1436,7 +1596,7 @@ form{
         font-family: 'Ruluko';
         font-style: normal;
         font-weight: normal;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 3vw;
         color: #000000;
         padding-left: 7vw;
@@ -1469,7 +1629,7 @@ form{
     }
     .login input{
         background-color: #2FBE79;
-        width: 1050px;
+        width: 900px;
         height: 92px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
@@ -1481,13 +1641,13 @@ form{
         font-size: 80px;
         color: #FFF0F0;
     }
-}
+} 
 
-@media (min-width:375px) and (max-width:523px){
+/* @media (min-width:375px) and (max-width:424px){  
     .kiri{
         position: absolute;
         width: 140px;
-        height: 523px;
+        height: 440px;
         left: 0px;
         top: 0px;
         
@@ -1497,8 +1657,8 @@ form{
     
     .kanan{
         position: absolute;
-        width: 235px;
-        height: 523px;
+        width: 180px;
+        height: 440px;
         left: 140px;
         top: 0px;
         
@@ -1582,13 +1742,13 @@ form{
         position: absolute;
         width: 131px;
         height: 34px;
-        left: 105px;
+        left: 75px;
         top: 31vw;
         
         font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 8px;
         line-height: 25px;
         
         color: #000000;
@@ -1600,16 +1760,16 @@ form{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         position: absolute;
-        width: 75px;
-        height: 25px;
-        left: 155px;
-        top: 31vw;
+        width: 60px;
+        height: 15px;
+        left: 112px;
+        top: 34vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 8px;
-        line-height: 26px;
+        font-size: 5px;
+        line-height: 15px;
         text-align: center;
         color: #000000;
     }
@@ -1618,13 +1778,13 @@ form{
         position: absolute;
         width: 197px;
         height: 66px;
-        left: 80px;
-        top: 33vw;
+        left: 65px;
+        top: 32vw;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 51px;
         
         color: #F7F3E9;
@@ -1636,23 +1796,23 @@ form{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 60vw;
-        margin-left: 10vw;
+        margin-top: 55vw;
+        margin-left: 8vw;
     }
     
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 13px;
         line-height: 20px;
         
         color: #F7F3E9;
     }
     
     .formContent input{
-        width: 170px;
-        height: 20px;
+        width: 130px;
+        height: 18px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -1663,7 +1823,7 @@ form{
     .formContent #labelPassword{
         display: flex;
         flex-direction: row;
-        margin-bottom: 1vw;
+        margin-bottom: -1vw;
     }
     .formContent a{
         text-decoration: none;
@@ -1672,10 +1832,10 @@ form{
         font-family: 'Ruluko';
         font-style: normal;
         font-weight: normal;
-        font-size: 7px;
+        font-size: 6px;
         line-height: 3vw;
         color: #000000;
-        padding-left: 6vw;
+        padding-left: 5.5vw;
     }
     
     .formContent1{
@@ -1703,8 +1863,8 @@ form{
     }
     .login input{
         background-color: #2FBE79;
-        width: 170px;
-        height: 20px;
+        width: 130px;
+        height: 18px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1715,4 +1875,238 @@ form{
         font-size: 12px;
         color: #FFF0F0;
     }
-}
+}  */
+
+@media (min-width:375px) and (max-width:424px){  
+    .kiri{
+        position: absolute;
+        width: 170px;
+        height: 523px;
+        left: 0px;
+        top: 0px;
+        
+        background:#F7F3E9;
+        border-radius: 0px;
+    }
+    
+    .kanan{
+        position: absolute;
+        width: 205px;
+        height: 523px;
+        left: 170px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .kiri h2{
+        position: absolute;
+        width: 200px;
+        height: 39.47px;
+        left: 30px;
+        top: 150px;
+        
+        font-family: 'Patua One';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #F05945;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .kiri #paragraph{
+        position: absolute;
+        width: 90px;
+        height: 58px;
+        left: 30px;
+        top: 180px;
+        
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #000000;
+    }
+    .kiri #getYourself{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 30px;
+        top: 250px;
+        font-family: 'Passero One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        
+        color: #000000;
+    }
+    .kiri img{
+        position: absolute;
+        width: 130px;
+        height: 65px;
+        left: 6px;
+        top: 290px;
+        border-radius: 50px;
+    }
+    
+    .kanan #logo{
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        left: 10px;
+        top: 25vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    
+    .kanan #newHere{
+        position: absolute;
+        width: 131px;
+        height: 34px;
+        left: 95px;
+        top: 31vw;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 60px;
+        height: 15px;
+        left: 135px;
+        top: 34vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5px;
+        line-height: 15px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .kanan h6{
+        position: absolute;
+        width: 197px;
+        height: 66px;
+        left: 65px;
+        top: 32vw;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 55vw;
+        margin-left: 8vw;
+    }
+    
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        
+        color: #F7F3E9;
+    }
+    
+    .formContent input{
+        width: 130px;
+        height: 18px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin-bottom: 2vw;
+    }
+    .formContent #labelPassword{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -1vw;
+    }
+    .formContent a{
+        text-decoration: none;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6px;
+        line-height: 3vw;
+        color: #000000;
+        padding-left: 5.5vw;
+    }
+    
+    .formContent1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formContent1 p{
+        padding-left: 3px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;  
+        color: #000000;
+    }
+    .formContent1 #rememberMe{
+        width: 12px;
+        height: 12px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 130px;
+        height: 18px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #FFF0F0;
+    }
+}  
