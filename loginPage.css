@@ -1,160 +1,147 @@
-html{
-    height: 100%;
+body {
+  margin: 0;
+  padding: 0;
 }
-body{
-    margin: 0px;
+.login {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
 }
-section{
-    display: flex;
-    flex-direction: row;
+.kiri {
+  background-color: #fff0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
 }
-.kiri{
-    background-color: #FFF0F0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
+.kiri h2 {
+  margin-top: 0;
+  color: #f05945;
+  font-family: 'Patua One';
+  font-size: 5rem;
 }
-.kanan{
-    background-color: #A3D2CA;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+.kiri p {
+  font-family: 'Passero One';
+  color: #000000;
+  font-size: 2rem;
 }
-.kiri h2{
-    margin-top: 25%;
-    color: #F05945;
-    font-family: 'Patua One';
-    margin-left: 25%;
-    font-size: xx-large;
+.kiri img {
+  width: 30vw;
+  border-radius: 2em;
 }
-.kiri p{
-    font-family: 'Passero One';
-    color: #000000;
-    margin-left: 25%;
-    font-size: x-large;
+.kanan {
+  background-color: #a3d2ca;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
-.kiri img{
-    margin-bottom: 25%;
-    margin-left: 25%;
-    width: 20vw;
-    border-radius: 2em;
+.kanan .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: larger;
+  font-family: 'Simonetta';
+  padding: 1rem 2rem;
 }
-.kanan header{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: larger;
-} 
-.kanan header .header-right{
-    display: flex;
-    flex-direction: row;
+.kanan .header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.kanan header #logo{
-    margin-left: 5%;
-    font-family: 'Simonetta';
-} 
-.kanan header #newHere{
-    font-family: 'Simonetta';
-} 
-.kanan header a{
-    margin-right: 2vw;
-    margin-left: 1vw;
-    text-decoration: none;
-}  
-.kanan header a p{
-    font-family: 'Quantico';
-    color: #000000;
-    background-color: #FFFFFF;
-    border-radius: 2vw;
-
+.kanan .header p {
+  margin: 0;
 }
-.kanan h6{
-    font-family: 'Quantico';
-    color: #F7F3E9;
-    font-weight: bold;
-    text-align: center;
-    font-size: x-large;
+.kanan .header a {
+  text-decoration: none;
+}
+.kanan .header #create-account {
+  font-family: 'Quantico';
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+}
+.kanan h6 {
+  font: 2rem 'Quantico';
+  text-align: center;
+  color: #f7f3e9;
+  margin: 0;
 }
 .kanan form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
 }
-.kanan form .formContent label{
-    font-family: 'Sirin Stencil';
-    color: #F7F3E9;
-    font-size: x-large;
-    font-weight: bold;
-    margin-bottom: 5px;
+.kanan .input-group {
+  display: flex;
+  flex-direction: column;
 }
-.kanan form .formContent input[type=email], input[type=password]{
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    width: 21vw;
-    height: 1.5vw;
-    margin-bottom: 1em;
-}
-.login input{
-    margin-top: 1em;
-    background-color: #2FBE79;
-    width: 21vw;
-    height: 1,5vw;
-    border: 1px solid #04FD86;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    font-family: 'Yinmar', sans-serif;
-    color: #FFF0F0;
-    cursor: pointer;
+.kanan .input-group label {
+  font: bold 2rem 'Sirin Stencil';
+  color: #f7f3e9;
+  margin: 2rem 0 1rem 0;
 }
 
-@media screen and (max-width:428px) {
-    .kiri{
-        display: none;
-    }
-    .kanan{
-        width: 100%;
-        height: 523px;
-    }
-    .kanan header{
-        font-size: small;
-    }
-    .kanan form .formContent label{
-        font-size: small;
-    }
-    .kanan form .formContent input[type=email], input[type=password]{
-        width: 40vw;
-        height: 4vw;
-    }
-    .login input{
-        width: 40vw;
-        height: 6vw;
-        font-size: medium;
-    }
-} 
+.input-group input {
+  width: 30vw;
+  background-color: #ffffff;
+  border: 1px solid #04fd86;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: black;
+  box-sizing: border-box;
+  font-family: 'Yinmar', sans-serif;
+  padding: 0.5rem 1rem;
+}
 
-@media screen and (max-width:576px) {
-    .kiri{
-        display: none;
-    }
-    .kanan{
-        width: 100%;
-    }
-    .kanan header{
-        font-size: medium;
-    }
-    .kanan form .formContent label{
-        font-size: medium;
-    }
-    .kanan form .formContent input[type=email], input[type=password]{
-        width: 50vw;
-        height: 4vw;
-    }
-    .login input{
-        width: 50vw;
-    }
-}   
+.kanan #checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.kanan #checkbox label {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.input-group #remember-me {
+  width: 0;
+}
+
+.kanan .button input {
+  background: #2fbe79;
+  border: none;
+  color: #ffffff;
+  width: 30vw;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .kiri {
+    display: none;
+  }
+  .kanan {
+    width: 100vw;
+  }
+  .kanan header {
+    font-size: small;
+  }
+  .kanan form .input-group label {
+    font-size: small;
+  }
+  .input-group input {
+    width: 80vw;
+  }
+}

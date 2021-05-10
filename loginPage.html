@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="loginPage.css">
+    <link rel="stylesheet" href="loginPage.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Patua One'rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Passero One'rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Simonetta'rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Quantico'rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Sirin Stencil' rel='stylesheet'>
-    <link href="http://fonts.cdnfonts.com/css/yaldevi-colombo" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/yinmar" rel="stylesheet">
-</head>
-<body>
-    <section class="loginPage">
-        <div class="kiri">
-            <h2>Glad to see you!</h2>
-            <p id="paragraph">
-                .... is much better when you have an account.
-            </p>
-            <p id="getYourself">Get yourself one.</p>
-            <img src="./Asset/Welcome to do list.png" alt="">
+    <link
+      href="https://fonts.googleapis.com/css?family=Patua One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Passero One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Simonetta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quantico"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sirin Stencil"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.cdnfonts.com/css/yaldevi-colombo"
+      rel="stylesheet"
+    />
+    <link href="http://fonts.cdnfonts.com/css/yinmar" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="login">
+      <div class="kiri">
+        <h2>Glad to see you!</h2>
+        <div>
+          <p>.... is much better when you have an account.</p>
+          <p>Get yourself one.</p>
         </div>
-        <div class="kanan">
-            <header>
-                <p id="logo">Logo</p>
-                <div class="header-right">
-                    <p id="newHere">New Here?</p>
-                    <a href="http://www.google.com">
-                        <p id="createAccount">Create an account</p>
-                    </a>
-                </div>
-            </header>
-            <h6>Sign in</h6>
-            <form action="">
-                <div class="formContent">
-                    <label for="">Email</label> <br>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="formContent">
-                    <label for="">Password</label> <br>
-                    <input type="password" name="password" id="password">
-                </div>
-                <div class="formContent">
-                    <input type="checkbox" name="rememberMe" id="rememberMe">
-                    Remember me
-                </div>
-                <div class="login">
-                    <input type="submit" value="Sign in">
-                </div>
-            </form>
-        </div>
+        <img src="./Asset/Welcome to do list.png" alt="" />
+      </div>
+      <div class="kanan">
+        <header class="header">
+          <p id="logo">Logo</p>
+          <div class="header-right">
+            <p id="newHere">New Here?</p>
+            <div id="create-account">
+              <a href="http://www.google.com">Create an account</a>
+            </div>
+          </div>
+        </header>
+        <form action="">
+          <h6>Sign in</h6>
+          <div class="input-group">
+            <label for="">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="input-group">
+            <label for="">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="input-group" id="checkbox">
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+          </div>
+          <div class="button">
+            <input type="submit" value="Sign in" />
+          </div>
+        </form>
+      </div>
     </section>
-</body>
+  </body>
 </html>
