@@ -1,272 +1,37 @@
-.kiri{
-    position: absolute;
-    width: 600px;
-    height: 590px;
-    left: 0px;
-    top: 0px;
+@media screen {
     
-    background:#FFFFFF;
-    border-radius: 0px;
-}
-
-.kanan{
-    position: absolute;
-    width: 675px;
-    height: 590px;
-    left: 600px;
-    top: 0px;
-    
-    background: #A3D2CA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0px;
-}
-
-.kiri h2{
-    position: absolute;
-    width: 376.41px;
-    height: 39.47px;
-    left: 100px;
-    top: 30px;
-    
-    font-family: 'Patua One';
-    font-style: normal;
-    font-weight: 1500;
-    font-size: 48px;
-    line-height: 59px;
-    
-    color: #F05945;
-    
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.kiri #paragraph{
-    position: absolute;
-    width: 362px;
-    height: 58px;
-    left: 100px;
-    top: 110px;
-    
-    font-family: 'Passero One';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #000000;
-}
-.kiri #getYourself{
-    position: absolute;
-    width: 362px;
-    height: 58px;
-    left: 100px;
-    top: 190px;
-    font-family: 'Passero One';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #000000;
-}
-.kiri img{
-    position: absolute;
-    width: 430px;
-    height: 230px;
-    left: 80px;
-    top: 300px;
-    border-radius: 50px;
-}
-
-.kanan #logo{
-    position: absolute;
-    width: 81px;
-    height: 34px;
-    left: 50px;
-    top: 15px;
-    
-    font-family: 'Simonetta';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
-    
-    color: #000000;
-}
-
-.kanan #newHere{
-    position: absolute;
-    width: 131px;
-    height: 34px;
-    left: 390px;
-    top: 35px;
-    
-    font-family: 'Simonetta';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    
-    color: #000000;
-}
-
-.kanan #createAccount{
-    background: #FFFFFF;
-    border: 1px solid #FFF0F0;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    position: absolute;
-    width: 175px;
-    height: 27px;
-    left: 490px;
-    top: 33px;
-    
-    font-family: 'Quantico';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    color: #000000;
-}
-
-.kanan h6{
-    position: absolute;
-    width: 197px;
-    height: 66px;
-    left: 280px;
-    top: 80px;
-    
-    font-family: 'Quantico';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 51px;
-    
-    color: #F7F3E9;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 17.5vw;
-    margin-left: 13vw;
-}
-
-.formContent label{
-    font-family: 'Sirin Stencil';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 44px;
-    
-    color: #F7F3E9;
-}
-
-.formContent input{
-    width: 350px;
-    height: 32px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-}
-.formContent #labelPassword{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: -0.5vw;
-}
-.formContent a{
-    text-decoration: none;
-}
-.formContent p{
-    font-family: 'Ruluko';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    color: #000000;
-    padding-left: 6vw;
-}
-
-.formContent1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.formContent1 p{
-    padding-left: 5px;
-    font-family: 'Yaldevi Colombo Medium', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 20px;
-    
-    color: #000000;
-
-}
-.formContent1 #rememberMe{
-    width: 16px;
-    height: 16px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-}
-.login input{
-    background-color: #2FBE79;
-    width: 350px;
-    height: 36px;
-    border: 1px solid #04FD86;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    font-family: 'Yinmar', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #FFF0F0;
-}
-
-/* @media (max-width:1440px){
     .kiri{
         position: absolute;
-        width: 45vw;
-        height: 121vw;
+        width: 600px;
+        height: 590px;
         left: 0px;
         top: 0px;
         
-        background:#F7F3E9;
+        background:#FFFFFF;
         border-radius: 0px;
     }
-    
     .kanan{
         position: absolute;
-        width: 55vw;
-        height: 121vw;
-        left: 45vw;
+        width: 675px;
+        height: 590px;
+        left: 600px;
         top: 0px;
         
         background: #A3D2CA;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 0px;
     }
-    
     .kiri h2{
         position: absolute;
-        width: 100vw;
+        width: 376.41px;
         height: 39.47px;
-        left: 7vw;
-        top: 35vw;
+        left: 100px;
+        top: 30px;
         
         font-family: 'Patua One';
         font-style: normal;
         font-weight: 1500;
-        font-size: 60px;
+        font-size: 48px;
         line-height: 59px;
         
         color: #F05945;
@@ -275,48 +40,47 @@ form{
     }
     .kiri #paragraph{
         position: absolute;
-        width: 30vw;
-        height: 150vw;
-        left: 7vw;
-        top: 45vw;
+        width: 362px;
+        height: 58px;
+        left: 100px;
+        top: 110px;
         
         font-family: 'Passero One';
         font-style: normal;
         font-weight: bold;
-        font-size: 60px;
-        line-height: 5vw;
+        font-size: 24px;
+        line-height: 29px;
         
         color: #000000;
     }
     .kiri #getYourself{
         position: absolute;
-        width: 30vw;
-        height: 50vw;
-        left: 7vw;
-        top: 65vw;
+        width: 362px;
+        height: 58px;
+        left: 100px;
+        top: 190px;
         font-family: 'Passero One';
         font-style: normal;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 24px;
         line-height: 29px;
         
         color: #000000;
     }
     .kiri img{
         position: absolute;
-        width: 30vw;
-        height: 15vw;
-        left: 6vw;
-        top: 75vw;
+        width: 430px;
+        height: 230px;
+        left: 80px;
+        top: 300px;
         border-radius: 50px;
     }
-    
     .kanan #logo{
         position: absolute;
         width: 81px;
         height: 34px;
         left: 50px;
-        top: 30vw;
+        top: 15px;
         
         font-family: 'Simonetta';
         font-style: normal;
@@ -326,18 +90,17 @@ form{
         
         color: #000000;
     }
-    
     .kanan #newHere{
         position: absolute;
-        width: 145px;
+        width: 131px;
         height: 34px;
-        left: 28vw;
-        top: 32vw;
+        left: 390px;
+        top: 35px;
         
         font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 25px;
         
         color: #000000;
@@ -349,731 +112,25 @@ form{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         position: absolute;
-        width: 15vw;
+        width: 175px;
         height: 27px;
-        left: 38vw;
-        top: 33vw;
+        left: 490px;
+        top: 33px;
         
         font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 26px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 20vw;
-        top: 35vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 50vw;
-        margin-left: 11vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 45px;
-        line-height: 50px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        width: 500px;
-        height: 40px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -2vw;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 21px;
-        color: #000000;
-        padding-left: 5vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 35px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 25px;
-        height: 25px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 500px;
-        height: 40px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        color: #FFF0F0;
-    }
-    
-} */
-
-@media (min-width:320px) and (max-width:374px) { 
-    .kiri{
-        position: absolute;
-        width: 45vw;
-        height: 190vw;
-        left: 0px;
-        top: 0px;
-        
-        background:#FFFFFF;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 54.5vw;
-        height: 190vw;
-        left: 45vw;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 200px;
-        height: 39.47px;
-        left: 7vw;
-        top: 50vw;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 15px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 40vw;
-        height: 58px;
-        left: 7vw;
-        top: 60vw;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 6vw;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 50vw;
-        height: 20px;
-        left: 7vw;
-        top: 83vw;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 6vw;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 120px;
-        height: 55px;
-        left: 4vw;
-        top: 100vw;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 32vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 80px;
-        top: 39vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 7px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 55px;
-        height: 18px;
-        left: 115px;
-        top: 40vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5px;
-        line-height: 20px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 80px;
-        top: 50vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 70vw;
-        margin-left: 9vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 9px;
-        line-height: 20px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 130px;
-        height: 20px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        margin-bottom: 2vw;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent a{
-        text-decoration: none;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 7px;
-        line-height: 0.5vw;
-        color: #000000;
-        padding-left: 8vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 3px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 10px;  
-        color: #000000;
-    }
-    .formContent1 #rememberMe{
-        width: 12px;
-        height: 12px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 130px;
-        height: 20px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        color: #FFF0F0;
-    }
-} 
-
-@media (min-width:768px) and (max-width:1023px){
-    .kiri{
-        position: absolute;
-        width: 300px;
-        height: 1046px;
-        left: 0px;
-        top: 0px;
-        
-        background:#FFFFFF;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 468px;
-        height: 1046px;
-        left: 39vw;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 200px;
-        height: 39.47px;
-        left: 40px;
-        top: 350px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 25px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 250px;
-        height: 58px;
-        left: 30px;
-        top: 390px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 35px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 200px;
-        height: 20px;
-        left: 30px;
-        top: 490px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 20px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 250px;
-        height: 130px;
-        left: 13px;
-        top: 590px;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 25vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 19vw;
-        top: 27vw;
-        
-        font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 150px;
-        height: 25px;
-        left: 30vw;
-        top: 27vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
         line-height: 26px;
         text-align: center;
         color: #000000;
     }
-    
     .kanan h6{
         position: absolute;
         width: 197px;
         height: 66px;
-        left: 190px;
-        top: 30vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 55vw;
-        margin-left: 8vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 44px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 300px;
-        height: 32px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent a{
-        text-decoration: none;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 3vw;
-        color: #000000;
-        padding-left: 7vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 300px;
-        height: 32px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        color: #FFF0F0;
-    }
-    
-} 
-
-/* @media (min-width:1024px) and (max-width:1089px){
-    .kiri{
-        position: absolute;
-        width: 450px;
-        height: 1089px;
-        left: 0px;
-        top: 0px;
-        
-        background:#FFFFFF;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 574px;
-        height: 1089px;
-        left: 43.5vw;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 300px;
-        height: 39.47px;
-        left: 90px;
-        top: 350px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 35px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 350px;
-        height: 58px;
-        left: 90px;
-        top: 410px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 350px;
-        height: 20px;
-        left: 90px;
-        top: 520px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 55px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 300px;
-        height: 150px;
-        left: 73px;
-        top: 650px;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 25vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 28.5vw;
-        top: 27vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 150px;
-        height: 25px;
-        left: 40vw;
-        top: 28vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 26px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 210px;
-        top: 33vw;
+        left: 280px;
+        top: 80px;
         
         font-family: 'Quantico';
         font-style: normal;
@@ -1085,15 +142,13 @@ form{
         
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    
     form{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50vw;
-        margin-left: 10vw;
+        margin-top: 17.5vw;
+        margin-left: 13vw;
     }
-    
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
@@ -1103,7 +158,6 @@ form{
         
         color: #F7F3E9;
     }
-    
     .formContent input{
         width: 350px;
         height: 32px;
@@ -1126,264 +180,29 @@ form{
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
-        line-height: 3vw;
-        color: #000000;
-        padding-left: 10vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 5px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 20px;
-        
-        color: #000000;
-    
-    }
-    .formContent1 #rememberMe{
-        width: 16px;
-        height: 16px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 350px;
-        height: 32px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        color: #FFF0F0;
-    }
-} */
-
-@media (min-width:425px) and (max-width:767px){
-    .kiri{
-        position: absolute;
-        width: 160px;
-        height: 523px;
-        left: 0px;
-        top: 0px;
-        
-        background:#F7F3E9;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 265px;
-        height: 523px;
-        left: 160px;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 200px;
-        height: 39.47px;
-        left: 30px;
-        top: 150px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 90px;
-        height: 58px;
-        left: 30px;
-        top: 180px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 100px;
-        height: 20px;
-        left: 30px;
-        top: 250px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 20px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 150px;
-        height: 75px;
-        left: 6px;
-        top: 290px;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 25vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 134px;
-        top: 31vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 75px;
-        height: 25px;
-        left: 185px;
-        top: 31vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 8px;
-        line-height: 26px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 90px;
-        top: 35vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 60vw;
-        margin-left: 15vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 20px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 170px;
-        height: 20px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        margin-bottom: 2vw;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 1vw;
-    }
-    .formContent a{
-        text-decoration: none;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 7px;
-        line-height: 3vw;
+        line-height: 21px;
         color: #000000;
         padding-left: 6vw;
     }
-    
     .formContent1{
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     .formContent1 p{
-        padding-left: 3px;
+        padding-left: 5px;
         font-family: 'Yaldevi Colombo Medium', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
-        line-height: 10px;  
+        font-size: 20px;
+        line-height: 20px;
+        
         color: #000000;
+    
     }
     .formContent1 #rememberMe{
-        width: 12px;
-        height: 12px;
+        width: 16px;
+        height: 16px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -1392,8 +211,8 @@ form{
     }
     .login input{
         background-color: #2FBE79;
-        width: 170px;
-        height: 20px;
+        width: 350px;
+        height: 36px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1401,117 +220,40 @@ form{
         font-family: 'Yinmar', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 12px;
+        font-size: 20px;
         color: #FFF0F0;
     }
-} 
-
-@media (min-width:2560px) and (max-width:3486px){
+}
+@media (min-width:320px) and (max-width:760px){
     .kiri{
-        position: absolute;
-        width: 1100px;
-        height: 3486px;
-        left: 0px;
-        top: 0px;
-        
-        background:#FFFFFF;
-        border-radius: 0px;
+        display: none;
     }
-    
-    .kanan{
-        position: absolute;
-        width: 1460px;
-        height: 3486px;
-        left: 43vw;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 600px;
-        height: 39.47px;
-        left: 250px;
-        top: 1050px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 70px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 800px;
-        height: 58px;
-        left: 250px;
-        top: 1200px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 70px;
-        line-height: 80px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 800px;
-        height: 20px;
-        left: 250px;
-        top: 1400px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 70px;
-        line-height: 80px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 950px;
-        height: 530px;
-        left: 55px;
-        top: 1700px;
-        border-radius: 50px;
-    }
-    
     .kanan #logo{
         position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 26vw;
+        /* width: 81px; */
+        /* height: 34px; */
+        /* left: 50px; */
+        top: 15px;
         
         font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
-        font-size: 82px;
+        font-size: 18px;
         line-height: 45px;
         
         color: #000000;
     }
-    
     .kanan #newHere{
         position: absolute;
-        width: 531px;
-        height: 34px;
-        left: 22vw;
-        top: 28vw;
+        /* width: 131px;
+        height: 34px; */
+        left: 55%;
+        top: 6%;
         
         font-family: 'Simonetta';
         font-style: normal;
         font-weight: normal;
-        font-size: 50px;
+        font-size: 10px;
         line-height: 25px;
         
         color: #000000;
@@ -1523,104 +265,222 @@ form{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         position: absolute;
-        width: 350px;
-        height: 40px;
-        left: 32vw;
-        top: 28vw;
+        width: 30%;
+        height: 5%;
+        left: 70%; 
+        top: 6%;
         
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 30px;
+        font-size: 8px;
         line-height: 26px;
         text-align: center;
         color: #000000;
     }
-    
+    .kanan{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
     .kanan h6{
         position: absolute;
-        width: 397px;
-        height: 66px;
-        left: 510px;
-        top: 35vw;
-        
+        left: 35%; 
+        top: 5%;
         font-family: 'Quantico';
         font-style: normal;
         font-weight: normal;
-        font-size: 110px;
+        font-size: 30px;
         line-height: 51px;
         
         color: #F7F3E9;
         
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    
     form{
         display: flex;
-        justify-content: center;
+        /* justify-content: space-evenly;  */
         flex-direction: column;
-        margin-top: 55vw;
-        margin-bottom: 2vw;
-        margin-left: 6vw;
+        /* align-items: center;  */
+        margin-top: 45%;
+        margin-left: 20%;
     }
-    
     .formContent label{
         font-family: 'Sirin Stencil';
         font-style: normal;
         font-weight: bold;
-        font-size: 80px;
-        line-height: 114px;
-        margin-bottom: 2vw;
+        font-size: 18px;
+        line-height: 40px;
+        
         color: #F7F3E9;
     }
-    
     .formContent input{
-        width: 900px;
-        height: 92px;
+        width: 200px;
+        height: 25px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
-        margin-bottom: 2vw;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -0.5vw;
-    }
-    .formContent a{
-        text-decoration: none;
     }
     .formContent p{
         font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 6vw;
+    }
+    .login input{
+        background-color: #2FBE79;
+        width: 200px;
+        height: 25px;
+        border: 1px solid #04FD86;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Yinmar', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #FFF0F0;
+    }
+}
+@media (width:768px){
+    .kiri{
+        display: none;
+    }
+    .kanan #logo{
+        position: absolute;
+        /* width: 81px; */
+        /* height: 34px; */
+        /* left: 50px; */
+        top: 15px;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 45px;
+        
+        color: #000000;
+    }
+    .kanan #newHere{
+        position: absolute;
+        /* width: 131px;
+        height: 34px; */
+        left: 55%;
+        top: 6%;
+        
+        font-family: 'Simonetta';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+        
+        color: #000000;
+    }
+    .kanan #createAccount{
+        background: #FFFFFF;
+        border: 1px solid #FFF0F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        position: absolute;
+        width: 30%;
+        height: 5%;
+        left: 70%; 
+        top: 6%;
+        
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 46px;
+        text-align: center;
+        color: #000000;
+    }
+    .kanan{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        
+        background: #A3D2CA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    .kanan h6{
+        position: absolute;
+        left: 35%; 
+        top: 8%;
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 51px;
+        
+        color: #F7F3E9;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    form{
+        display: flex;
+        /* justify-content: space-evenly;  */
+        flex-direction: column;
+        /* align-items: center;  */
+        margin-top: 45%;
+        margin-left: 20%;
+    }
+    .formContent label{
+        font-family: 'Sirin Stencil';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 70px;
+        
+        color: #F7F3E9;
+    }
+    .formContent input{
+        width: 400px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .formContent p{
+        font-family: 'Ruluko';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 21px;
+        color: #000000;
+        padding-left: 6vw;
+    }
+    .formContent1 p{
+        padding-left: 5px;
+        font-family: 'Yaldevi Colombo Medium', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 40px;
-        line-height: 3vw;
-        color: #000000;
-        padding-left: 7vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 7px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 80px;
         line-height: 20px;
         
         color: #000000;
     
     }
     .formContent1 #rememberMe{
-        width: 56px;
-        height: 56px;
+        width: 30px;
+        height: 30px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -1629,8 +489,8 @@ form{
     }
     .login input{
         background-color: #2FBE79;
-        width: 900px;
-        height: 92px;
+        width: 400px;
+        height: 40px;
         border: 1px solid #04FD86;
         box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1638,475 +498,7 @@ form{
         font-family: 'Yinmar', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 80px;
+        font-size: 30px;
         color: #FFF0F0;
     }
-} 
-
-/* @media (min-width:375px) and (max-width:424px){  
-    .kiri{
-        position: absolute;
-        width: 140px;
-        height: 440px;
-        left: 0px;
-        top: 0px;
-        
-        background:#F7F3E9;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 180px;
-        height: 440px;
-        left: 140px;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 200px;
-        height: 39.47px;
-        left: 30px;
-        top: 150px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 90px;
-        height: 58px;
-        left: 30px;
-        top: 180px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 100px;
-        height: 20px;
-        left: 30px;
-        top: 250px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 20px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 130px;
-        height: 65px;
-        left: 6px;
-        top: 290px;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 25vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 75px;
-        top: 31vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 8px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 60px;
-        height: 15px;
-        left: 112px;
-        top: 34vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5px;
-        line-height: 15px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 65px;
-        top: 32vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 55vw;
-        margin-left: 8vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 20px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 130px;
-        height: 18px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        margin-bottom: 2vw;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -1vw;
-    }
-    .formContent a{
-        text-decoration: none;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 6px;
-        line-height: 3vw;
-        color: #000000;
-        padding-left: 5.5vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 3px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 10px;  
-        color: #000000;
-    }
-    .formContent1 #rememberMe{
-        width: 12px;
-        height: 12px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 130px;
-        height: 18px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        color: #FFF0F0;
-    }
-}  */
-
-@media (min-width:375px) and (max-width:424px){  
-    .kiri{
-        position: absolute;
-        width: 170px;
-        height: 523px;
-        left: 0px;
-        top: 0px;
-        
-        background:#F7F3E9;
-        border-radius: 0px;
-    }
-    
-    .kanan{
-        position: absolute;
-        width: 205px;
-        height: 523px;
-        left: 170px;
-        top: 0px;
-        
-        background: #A3D2CA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 0px;
-    }
-    
-    .kiri h2{
-        position: absolute;
-        width: 200px;
-        height: 39.47px;
-        left: 30px;
-        top: 150px;
-        
-        font-family: 'Patua One';
-        font-style: normal;
-        font-weight: 1500;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #F05945;
-        
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
-    .kiri #paragraph{
-        position: absolute;
-        width: 90px;
-        height: 58px;
-        left: 30px;
-        top: 180px;
-        
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 15px;
-        
-        color: #000000;
-    }
-    .kiri #getYourself{
-        position: absolute;
-        width: 100px;
-        height: 20px;
-        left: 30px;
-        top: 250px;
-        font-family: 'Passero One';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 20px;
-        
-        color: #000000;
-    }
-    .kiri img{
-        position: absolute;
-        width: 130px;
-        height: 65px;
-        left: 6px;
-        top: 290px;
-        border-radius: 50px;
-    }
-    
-    .kanan #logo{
-        position: absolute;
-        width: 81px;
-        height: 34px;
-        left: 10px;
-        top: 25vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 45px;
-        
-        color: #000000;
-    }
-    
-    .kanan #newHere{
-        position: absolute;
-        width: 131px;
-        height: 34px;
-        left: 95px;
-        top: 31vw;
-        
-        font-family: 'Simonetta';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 8px;
-        line-height: 25px;
-        
-        color: #000000;
-    }
-    .kanan #createAccount{
-        background: #FFFFFF;
-        border: 1px solid #FFF0F0;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50px;
-        position: absolute;
-        width: 60px;
-        height: 15px;
-        left: 135px;
-        top: 34vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5px;
-        line-height: 15px;
-        text-align: center;
-        color: #000000;
-    }
-    
-    .kanan h6{
-        position: absolute;
-        width: 197px;
-        height: 66px;
-        left: 65px;
-        top: 32vw;
-        
-        font-family: 'Quantico';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 51px;
-        
-        color: #F7F3E9;
-        
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 55vw;
-        margin-left: 8vw;
-    }
-    
-    .formContent label{
-        font-family: 'Sirin Stencil';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 20px;
-        
-        color: #F7F3E9;
-    }
-    
-    .formContent input{
-        width: 130px;
-        height: 18px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        margin-bottom: 2vw;
-    }
-    .formContent #labelPassword{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -1vw;
-    }
-    .formContent a{
-        text-decoration: none;
-    }
-    .formContent p{
-        font-family: 'Ruluko';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 6px;
-        line-height: 3vw;
-        color: #000000;
-        padding-left: 5.5vw;
-    }
-    
-    .formContent1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formContent1 p{
-        padding-left: 3px;
-        font-family: 'Yaldevi Colombo Medium', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 10px;  
-        color: #000000;
-    }
-    .formContent1 #rememberMe{
-        width: 12px;
-        height: 12px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-    .login input{
-        background-color: #2FBE79;
-        width: 130px;
-        height: 18px;
-        border: 1px solid #04FD86;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        font-family: 'Yinmar', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        color: #FFF0F0;
-    }
-}  
+}
