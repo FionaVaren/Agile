@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .login {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  .kiri {
+    background-color: #fff0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+  }
+  .kiri h2 {
+    margin-top: 0;
+    color: #f05945;
+    font-family: 'Patua One';
+    font-size: 5rem;
+  }
+  .kiri p {
+    font-family: 'Passero One';
+    color: #000000;
+    font-size: 2rem;
+  }
+  .kiri img {
+    width: 30vw;
+    border-radius: 2em;
+  }
+  .kanan {
+    background-color: #a3d2ca;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+ .ditengah{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  .kanan h6 {
+    font: 2rem 'Quantico';
+    text-align: center;
+    color: #f7f3e9;
+    margin: 2rem 0 2.7rem 0;
+  }
+  .kanan form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  .kanan .input-group {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .kanan .input-group label {
+    font: bold 1.75rem 'Sirin Stencil';
+    color: #f7f3e9;
+    margin: 0.6rem 0 0.2rem 0;
+    
+  }
+  
+  .input-group input {
+    width: 30vw;
+    background-color: #ffffff;
+    border: 1px solid #04fd86;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Yinmar', sans-serif;
+    padding: 0.5rem 1rem;
+  }
+  
+  .kanan #checkbox {
+    margin-block: 1.5rem 0.7rem;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #terms{
+      width: 1.5rem;
+      height: 1.5rem;
+  }
+
+  .kanan #checkbox label {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Yinmar', sans-serif;
+  }
+  
+  .kanan .button input {
+    background: #2fbe79;
+    border: none;
+    color: #ffffff;
+    width: 30vw;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .kiri {
+      display: none;
+    }
+    .kanan {
+      width: 100vw;
+    }
+    .kanan header {
+      font-size: small;
+    }
+    .kanan form .input-group label {
+      font-size: large;
+    }
+    .kanan form input{
+         width: 80vw;
+        font-size: small;
+    }
+    .button input[type=submit]{
+        width: 80vw;
+        font-size: small;
+    }
+    .kanan #checkbox label{
+        font-size: large;
+    }
+   
+  }
+  
