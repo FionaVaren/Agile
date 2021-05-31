@@ -1,0 +1,62 @@
+body {
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: #5FAAA8;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    padding: 0rem 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-image: url("../Agile/Asset/Welcome\ to\ do\ list.png");
+    background-position: center;
+    background-size: cover;
+    padding: 30rem 0rem;
+}
+
+.title {
+    display: flex;
+    margin-top: -28rem;
+    color: white;
+}
+
+
+.footer {
+    background-color: #5FAAA8;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
