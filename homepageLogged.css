@@ -23,7 +23,7 @@ input[type=checkbox] {
 .navigation-bar {
     display: flex;
     align-items: center;
-    width: 15%;
+    width: 25%;
     justify-content: space-between;
 }
 
@@ -37,6 +37,74 @@ input[type=checkbox] {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+#notif-icon{
+    color: black;
+    background-color:#f4ede3;
+    padding: 1rem 1.5rem;
+    margin-left: 20px;
+    border-radius: 1rem;
+}
+
+.drop{
+    color: black;
+    background-color:#f4ede3;
+    padding: 1rem 2rem;
+    margin-left: 20px;
+}
+
+#notif-icon:hover{
+    background-color: #f4ede3;
+    padding: 1rem 1.5rem;
+    margin-left: 20px;
+}
+
+#notification{
+    position: relative;
+}
+
+#dropdown{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+#notification:hover #dropdown{
+    display: block;
+
+}
+
+#notification:hover #morebtn{
+    padding: 10px 29.5px;
+    border-radius: 0px;
+    margin-left: 20px;
+}
+
+.notif-title {
+    padding: 1rem 8rem;
+    background-color: #f4ede3;
+    color: #0e6562;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.notif-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px #ebe7e2 solid;
+    padding: 1rem 1rem;
+}
+
+.time-font {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #f05945;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 .username-text {
